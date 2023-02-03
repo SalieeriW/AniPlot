@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>AniPlot</title>
+        <link rel="icon" type="image/jpg" href="./icon/favicon.jpg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Poppins&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Qwigley&display=swap" rel="stylesheet" />
+        <script defer src="app.js"></script>
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="hd_container">
+                <div class="logo">
+                    <a href="index.html" class="nav-anchor"><img src="logo/logo.png" alt="logo" id="logo" /></a>
+                </div>
+                <div class="banner">
+                    <img src="./src/banner.jpg" alt="banner" id="banner" />
+                </div>
+                <input type="checkbox" id="check" />
+                <label for="check" class="bar">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <div class="navbar">
+                    <a href="animelist.html" class="nav_anchor"><span class="redirect"> Anime List</span></a>
+                    <a href="about.html" class="nav_anchor"><span class="redirect"> About</span></a>
+                </div>
+            </div>
+        </header>
+        <h2>ANIME LIST</h2>
+        <div class="animelist_container">
+            <div class="animelist_item">
+                <div class="animelist_window">
+                    <div class="bookmark bookmark_mask"></div>
+                    <div class="status-bar">
+                        <div class="status-bar-items">
+                            <div class="rating"><span>9,9/10</span></div>
+                            <div class="minutes">
+                                <i class="fa-solid fa-clock" id="clock"></i>
+                                <span>144min</span>
+                            </div>
+                            <div class="episodes">
+                                <span>13 episodes</span>
+                                <i class="fa-solid fa-mug-hot" id="coffee"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="animelist_image" style="background-image: url(./src/animelist-1.png)"></div>
+                    <div class="animelist_description">
+                        <div class="animelist_description_container">
+                            <h3>Neon Genesis Evangelion</h3>
+                            Evangelion is set fifteen years after a worldwide cataclysm named Second Impact, particularly in the futuristic fortified city of Tokyo-3. The protagonist is Shinji Ikari, a teenage boy who is recruited by his father Gendo to the shadowy organization Nerv to pilot a giant bio-machine mecha named Evangelion into combat against beings known as Angels.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="animelist_item">
+                <div class="animelist_window">
+                    <div class="bookmark bookmark_mask"></div>
+                    <div class="status-bar">
+                        <div class="status-bar-items">
+                            <div class="rating"><span>9,9/10</span></div>
+                            <div class="minutes">
+                                <i class="fa-solid fa-clock" id="clock"></i>
+                                <span>144min</span>
+                            </div>
+                            <div class="episodes">
+                                <span>13 episodes</span>
+                                <i class="fa-solid fa-mug-hot" id="coffee"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="animelist_image" style="background-image: url(./src/animelist-2.jpeg)"></div>
+                    <div class="animelist_description">
+                        <div class="animelist_description_container">
+                            <h3>Kisumonogatari</h3>
+                            Monogatari (物語, "Story") is a Japanese light novel series written by Nisio Isin and illustrated by Vofan. The plot centers on Koyomi Araragi, a third-year high school student who survives a vampire attack and finds himself helping girls involved with a variety of apparitions, deities, ghosts, beasts, spirits, and other supernatural phenomena, which often serve as proxies for their emotional and mental issues.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="animelist_item">
+                <div class="animelist_window">
+                    <div class="bookmark bookmark_mask"></div>
+                    <div class="status-bar">
+                        <div class="status-bar-items">
+                            <div class="rating"><span>9,9/10</span></div>
+                            <div class="minutes">
+                                <i class="fa-solid fa-clock" id="clock"></i>
+                                <span>144min</span>
+                            </div>
+                            <div class="episodes">
+                                <span>13 episodes</span>
+                                <i class="fa-solid fa-mug-hot" id="coffee"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="animelist_image" style="background-image: url(./src/animelist-3.jpg)"></div>
+                    <div class="animelist_description">
+                        <div class="animelist_description_container">
+                            <h3>Akira</h3>
+                            Akira is a Japanese cyberpunk media franchise based on Katsuhiro Otomo's seminal manga, Akira, published from 1982 to 1990. It was adapted into a 1988 anime film and two video games. A live-action feature film has also been in development since 2000, and a new anime television series by Otomo was also announced in 2019.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">&copy; Songhe Wang 2023.</div>
+        </footer>
+    </body>
+</html>
